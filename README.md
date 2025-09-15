@@ -170,9 +170,9 @@ streamlit run app.py
 
 3.開啟瀏覽器
 
-&nbsp;   系統將自動開啟http://localhost:8501，即可開始操作。
+系統將自動開啟http://localhost:8501，即可開始操作。
 
-
+```
 
 ---
 
