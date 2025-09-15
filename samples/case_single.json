@@ -1,0 +1,16 @@
+{
+  "filing_status": "單身",
+  "dependents": 1,
+  "elders70": 1,
+  "disabled": 0,
+  "ltc": 0,
+  "preschool_first": 0,
+  "preschool_more": 0,
+  "salary": 850000,
+  "other_income": 60000,
+  "withheld": 70000,
+  "donation": 15000,
+  "insurance": 12000,
+  "mortgage_interest": 0,
+  "rent_special": 120000
+}

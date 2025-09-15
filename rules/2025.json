@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "income_year": 2024,
+  "exemption": {
+    "per_person": 97000,
+    "elder70": 145000
+  },
+  "deduction": {
+    "standard_single": 131000,
+    "standard_couple": 262000,
+    "donation_limit_rate": 0.2,
+    "insurance_per_person": 24000,
+    "mortgage_interest": 300000,
+    "house_rent": 120000
+  },
+  "special": {
+    "salary": 218000,
+    "savings_investment": 270000,
+    "preschool_first": 150000,
+    "preschool_second_plus": 225000,
+    "disability": 218000,
+    "long_term_care": 120000,
+    "rent": 180000
+  },
+  "brackets": [
+    { "up_to": 590000, "rate": 0.05, "diff": 0 },
+    { "up_to": 1330000, "rate": 0.12, "diff": 41300 },
+    { "up_to": 2660000, "rate": 0.20, "diff": 147700 },
+    { "up_to": 4980000, "rate": 0.30, "diff": 413700 },
+    { "up_to": -1, "rate": 0.40, "diff": 911700 }
+  ]
+}

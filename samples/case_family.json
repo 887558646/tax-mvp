@@ -1,0 +1,16 @@
+{
+  "filing_status": "夫妻合併",
+  "dependents": 0,
+  "elders70": 0,
+  "disabled": 0,
+  "ltc": 0,
+  "preschool_first": 1,
+  "preschool_more": 1,
+  "salary": 1600000,
+  "other_income": 120000,
+  "withheld": 150000,
+  "donation": 20000,
+  "insurance": 36000,
+  "mortgage_interest": 100000,
+  "rent_special": 0
+}
