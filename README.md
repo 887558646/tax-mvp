@@ -51,29 +51,35 @@
 ```
 tax-mvp/
 │
-├── app.py # 主程式（Streamlit 入口）
+├── app.py                     # 主程式（Streamlit 入口）
 ├── engine/
-│ ├── calculator.py # 核心計算邏輯
-│ └── pdf\_report.py # PDF 報告生成
+│   ├── advisor.py             # 節稅建議邏輯
+│   ├── calculator.py          # 核心計算邏輯
+│   └── pdf_report.py          # PDF 報告生成
 │
 ├── rules/
-│ └── 2025.json # 稅務規則（年度可更新）
+│   └── 2025.json              # 稅務規則（年度可更新）
 │
 ├── samples/
-│ ├── case\_single.json # 範例：單身案例
-│ └── case\_family.json # 範例：家庭案例
+│   ├── case_single.json       # 範例：單身案例
+│   └── case_family.json       # 範例：家庭案例
 │
 ├── assets/
-│   ├── NotoSansTC-Regular.ttf 
-│   └── screenshots/       
+│   ├── NotoSansTC-Regular.ttf
+│   └── screenshots/
 │       ├── advice.png
-│       ├── chart.png      
+│       ├── chart.png
 │       ├── data1.png
 │       ├── data2.png
 │       ├── data3.png
 │       ├── report.png
 │       └── simulation.png
-└── NotoSansTC-Regular.ttf # 中文字型
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+
 ```
 
 
